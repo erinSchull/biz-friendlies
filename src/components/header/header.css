@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    width: 100vw;
+    border: 3px solid #6D7993;
+    justify-content: space-around;
+}
+header .branding{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.branding .logo{
+    padding-right: 10px;
+}
+.branding .site-name{
+    color: #8C6474;
+    text-decoration: none;
+}

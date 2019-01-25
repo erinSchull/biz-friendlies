@@ -1,0 +1,92 @@
+.service-page{
+    height: 100vh;
+}
+
+.service-form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 25%;
+    width: 75vw;
+}
+
+.input-name{
+    border: 1px solid grey;
+    width: 300px;
+    height: 23px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.status-ally{
+    margin-right: 5px;
+    color: #8c6474;
+    font-size: 20px;
+}
+
+.status-unfriendly{
+    color: salmon;
+    font-size: 20px;
+}
+
+.input-address{
+    width: 350px;
+    height: 23px;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 10px;
+}
+.input-social{
+    width: 350px;
+    height: 23px;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.ally-text{
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
+.unfriendly-text{
+    text-align: left;
+    position: relative;
+    left: 20px;
+}
+.specific-ally{
+    margin-right: 5px;
+}
+.specific-unfriendly{
+    margin-right: 10px;
+}
+
+.submit{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 3px solid darkgreen;
+    background-color: seagreen;
+    color: #f4f4f4;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.reset{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: 3px solid darkred;
+    background-color: crimson;
+    color: #f4f4f4;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.status{
+    display: flex;
+}
