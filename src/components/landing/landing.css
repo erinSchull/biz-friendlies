@@ -9,6 +9,9 @@
     width: 90%;
     border: 5px solid red;
     margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 .feature{
     border: 5px solid #6D7993;

@@ -13,7 +13,9 @@ class Submission extends Component {
                 <p>Location for Services</p>
                 </Link> 
                 <h4>Or</h4>
+                <Link to='/bathrooms' >
                 <p>Location for Bathrooms</p>
+                </Link>
             </div>
         )
     }

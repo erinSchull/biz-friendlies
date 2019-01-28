@@ -8,6 +8,7 @@ import Submission from './components/submission/Submission';
 import About from './components/about/About';
 import Landing from './components/landing/Landing';
 import Services from './components/services/Services';
+import Bathrooms from './components/bathrooms/Bathrooms';
 
 export default(
     <div>
@@ -20,6 +21,7 @@ export default(
             <Route component={Submission} path='/submit' />
             <Route component={About} path='/about' />
             <Route component={Services} path='/services' />
+            <Route component={Bathrooms} path='/bathrooms' />
         </Switch>
         {/* <Switch> 
             <Route component={Footer} />

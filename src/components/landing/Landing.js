@@ -13,7 +13,7 @@ class Landing extends Component{
                 
                 <div className='for-grid'>
                     <div className='feature' >
-                        Screenshot of featured page
+                        <h4>Screenshot of featured page</h4>
                     </div>
                     <div className='sub1' >
                         Screenshot of Submission 1
