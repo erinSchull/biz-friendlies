@@ -62,19 +62,21 @@ class Services extends Component{
                     </section>
 
                     <input type="text" className="input-address"
-                    name="address" placeholder='address' 
+                    name="address" placeholder='Address' 
                     onChange={this.handleInputAddress} />
 
                     <input type="text" className="input-social"
                     name="site"
-                    placeholder='website or social'
+                    placeholder='Website or Social Media'
                     onChange={this.handleInputSite} />
 
                     <p className='ally-text' > <input type='checkbox' name='specific-ally' className='specific-ally' /> Specific friendly employee</p>
+                    {/* checkbox handle the input display change to shown */}
                     <div hidden >
                        <input type='text' name='ally-name' className='ally-name' placeholder='Ally Name' /> 
                     </div>
                     <p className='unfriendly-text' ><input type='checkbox' name='specific-unfriendly' className='specific-unfriendly' />Specific unfriendly employee</p>
+                    {/* checkbox handle the input display change to shown */}
                     <div hidden>
                         <input type='text' name='unfriendly-name' placeholder='Unfriendly Name' />
                     </div>
